@@ -1,0 +1,24 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudberry2011/pomodoro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cloudberry2011/pomodoro/issues"
+  },
+  "homepage": "https://github.com/cloudberry2011/pomodoro#readme",
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}
