@@ -6,4 +6,10 @@ describe('timer', () => {
     const timer = createTimer();
     expect(timer.remainingSeconds).toBe(25 * 60);
   });
+
+  it('loses one second per tick', () => {
+    const timer = createTimer();
+    timer.tick();
+    expect(timer.remainingSeconds).toBe(25 * 60 - 1);
+  });
 });
